@@ -1,0 +1,12 @@
+#search-area {
+    text-align: center;
+    margin-top: 4em;
+}
+
+#search-input, #buttons {
+    margin-bottom: 1.8em;
+}
+
+#search-input {
+    margin-top: 1.4em;
+}
