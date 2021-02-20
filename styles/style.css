@@ -10,3 +10,21 @@
 #search-input {
     margin-top: 1.4em;
 }
+
+a {
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+footer p {
+    display: inline;
+}
