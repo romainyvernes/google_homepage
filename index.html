@@ -17,17 +17,7 @@
                     <li><a href="#">Gmail</a></li>
                     <li><a href="#">Images</a></li>
                     <a href="#" id="grid-wrapper">
-                        <svg width="20" height="20" id="circle-grid">
-                            <circle cx="2.5" cy="2.5" r="2.5"></circle>
-                            <circle cx="10" cy="2.5" r="2.5"></circle>
-                            <circle cx="17.5" cy="2.5" r="2.5"></circle>
-                            <circle cx="2.5" cy="10" r="2.5"></circle>
-                            <circle cx="10" cy="10" r="2.5"></circle>
-                            <circle cx="17.5" cy="10" r="2.5"></circle>
-                            <circle cx="2.5" cy="17.5" r="2.5"></circle>
-                            <circle cx="10" cy="17.5" r="2.5"></circle>
-                            <circle cx="17.5" cy="17.5" r="2.5"></circle>
-                        </svg>
+                        <img src="svg/circle-grid.svg" alt="3x3 grid of circles" id="circle-grid">
                     </a>
                     <a href="https://github.com/romainyvernes/google_homepage">
                         <img src="images/user-logo.png" alt="User's logo" id="user-logo">
@@ -38,8 +28,10 @@
         
         <div id="search-area">
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
-            <form>
-                <input type="search" id="search-input">
+            <form novalidate>
+                <div id="search-input">
+                    <input type="search" required>
+                </div>
                 <div id="buttons">
                     <button>Google Search</button>
                     <button>I'm Feeling Lucky</button>

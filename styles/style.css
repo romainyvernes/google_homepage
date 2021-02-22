@@ -8,16 +8,37 @@
 }
 
 #search-input {
-    margin-top: 1.4em;
-    width: 550px;
-    height: 45px;
+    margin: 25px 20px;
+    width: 560px;
+    height: 39px;
     border-radius: 30px;
     border: 1px solid rgba(0,0,0,0.15);
-    outline: 0;
 }
 
 #search-input:hover {
     box-shadow: 0 0 4px 2px rgb(230, 230, 230);
+}
+
+#search-input input {
+    width: 470px;
+    height: 25px;
+    font-size: 16px;
+    margin-top: 7px;
+    outline: 0;
+    border: none;
+    padding-right: 15px;
+}
+
+#search-input input:valid {
+    border-right: 1px solid rgb(211, 210, 210);
+}
+
+#search-input input::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+    content: url('../svg/cross.svg');
 }
 
 #buttons button {
@@ -90,12 +111,10 @@ a:hover {
 }
 
 #circle-grid {
-    margin-top: 10px;
-    margin-left: 10px;
-}
-
-#circle-grid circle {
-    fill: rgba(100,100,100);
+    margin-top: 13px;
+    margin-left: 13px;
+    width: 15px;
+    height: 15px;
 }
 
 #user-logo {
